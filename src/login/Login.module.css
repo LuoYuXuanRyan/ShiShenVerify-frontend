@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .screen {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login_box {
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(var(--semi-grey-9), 0.2);
+    height: 30rem;
+    width: 25rem;
+    background-color: white;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+
+  .welcome_back {
+    font-size: 2.5rem;
+    font-weight: 800;
+  }
+  
+  .welcome_description {
+    color: rgba(var(--semi-grey-5), 1);
+  }
+  
+  .welcome_project_name::before {
+    content: ' ';
+  }
+  
+  .welcome_project_name::after {
+    content: ' ';
+  }

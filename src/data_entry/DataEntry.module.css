@@ -1,0 +1,20 @@
+.outer_frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.inner_frame {
+    padding: 5rem;
+    border: 0.1rem solid rgba(var(--semi-grey-1), 1);
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(var(--semi-grey-2), 1);
+    width: 60%;
+    height: 75%;
+}
+
+.first_upload {
+    display: flex;
+    justify-content: start;
+}

@@ -7,6 +7,7 @@ import SecondIdentification from "./second_identification/SecondIdentification";
 import Database from "./database/Database";
 import Monitor from "./monitor/Monitor";
 import DataEntry from "./data_entry/DataEntry";
+import Dashboard from "./dashboard/Dashboard";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           />
           <Route path="database" element={<Database />} />
           <Route path="monitor" element={<Monitor />} />
+          <Route path="dashboard" element={<Dashboard />} />
           <Route path="data_entry" element={<DataEntry />} />
         </Route>
         <Route path="*" element={<Navigate to="/login" replace />} />

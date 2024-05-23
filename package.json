@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@douyinfe/semi-ui": "^2.54.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@visactor/react-vchart": "^1.11.1",
+    "@visactor/vchart-semi-theme": "^1.11.0",
     "axios": "^1.6.8",
     "crypto-js": "^4.2.0",
     "react": "^18.2.0",

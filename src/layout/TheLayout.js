@@ -1,11 +1,12 @@
 import { Layout, Nav, Avatar, Image } from "@douyinfe/semi-ui";
 import { Link, Outlet } from "react-router-dom";
 import {
-  IconCamera,
+  IconLive,
   IconEdit,
   IconArchive,
   IconMicrophone,
   IconUserCardVideo,
+  IconKanban
 } from "@douyinfe/semi-icons";
 
 export default function TheLayout() {
@@ -33,6 +34,7 @@ export default function TheLayout() {
                 first_identification: "/first_identification",
                 second_identification: "/second_identification",
                 database: "/database",
+                dashboard: "/dashboard",
                 monitor: "/monitor",
                 data_entry: "/data_entry",
               };
@@ -65,9 +67,14 @@ export default function TheLayout() {
                 icon: <IconArchive />,
               },
               {
+                itemKey: "dashboard",
+                text: "仪表盘",
+                icon: <IconKanban />
+              },
+              {
                 itemKey: "monitor",
                 text: "监控画面",
-                icon: <IconCamera />,
+                icon: <IconLive />,
               },
               {
                 itemKey: "data_entry",
